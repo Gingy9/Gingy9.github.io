@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Image Gallery - Cars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        img {
+            height: 200px;
+            width: 300px; /* fixed width */
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            box-shadow: 2px 2px 5px #aaa;
+            object-fit: cover; /* crops image to fill box without stretching */
+        }
+        .caption {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cars</h1>
+
+    <div>
+        <img src="images/creative_commons_image.jpg" alt="Creative Commons Image" />
+        <div class="caption">
+            Creative Commons Image - <a href="https://www.flickr.com/photos/kitmasterbloke/54578514736/in/photostream/" target="_blank" rel="noopener noreferrer">Source</a>
+        </div>
+    </div>
+
+    <div>
+        <img src="images/public_domain_image.jpg" alt="Public Domain Image" />
+        <div class="caption">
+            Public Domain Image - <a href="https://pixabay.com/photos/buick-oldtimer-old-car-blue-car-1400243/" target="_blank" rel="noopener noreferrer">Source</a>
+        </div>
+    </div>
+    
+    <!-- New Public Domain Image -->
+    <div>
+        <img src="images/public_domain_image2.jpg" alt="Another Public Domain Image" />
+        <div class="caption">
+            Public Domain Image - <a href="https://pixabay.com/photos/automotive-volkswagen-beetle-car-1846910/" target="_blank" rel="noopener noreferrer">Source</a>
+        </div>
+    </div>
+</body>
+</html>
